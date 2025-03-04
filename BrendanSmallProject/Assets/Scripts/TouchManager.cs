@@ -40,15 +40,16 @@ public class TouchManager : MonoBehaviour
     void Update()
     {
         // If there is at least one touch being detected we take note of that here
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 || Input.GetMouseButtonDown(0))
         {
             haveTouched = true;
 
-            Touch touch = Input.GetTouch(0);
-
-            currentInputTouch = touch.position;
-
-            Debug.Log("IN TOUCH METHOD");
+            if (Input.touchCount > 0) {
+                Touch touch = Input.GetTouch(0);
+                currentInputTouch = touch.position;
+            } else {
+                currentInputTouch = Input.mousePosition;
+            }
         }
 
         // Once the player touches the screen, the green repulse ball follows their finger on the screen
@@ -113,5 +114,10 @@ public class TouchManager : MonoBehaviour
     private void OnDisable()
     {
         touchPressAction.performed -= TouchPressed;
+    }
+
+    private void TouchPressed(InputAction.CallbackContext context)
+    {
+        Debug.Log("Touch Pressed!");
     }
 }

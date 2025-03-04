@@ -1,0 +1,143 @@
+# =============== #
+# Unity Generated #
+# =============== #
+
+# Ignore the Library folder (Unity generates this)
+Library/
+
+# Ignore the Temp folder (temporary files)
+Temp/
+
+# Ignore the Logs folder (Editor logs)
+Logs/
+
+# Ignore the Project's local cache
+Obj/
+
+# Ignore the Build folder (you can include builds separately if needed)
+Build/
+
+# Ignore the UserSettings folder (contains local machine-specific settings)
+UserSettings/
+
+# Ignore crash reports and generated system files
+CrashReports/
+MemoryCaptures/
+
+# Ignore .vs and .vscode for Visual Studio / VS Code
+.vs/
+.vscode/
+
+# =============== #
+# OS Generated #
+# =============== #
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux system files
+*~
+
+# =============== #
+# Unity Packages #
+# =============== #
+
+# Ignore JetBrains Rider project files
+.idea/
+*.sln*
+*.csproj*
+*.unityproj*
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Ignore Unity Auto-Generated Files
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =============== #
+# Other Unity Stuff #
+# =============== #
+
+# Ignore Unity's Asset Store download cache
+[Ll]ibrary/
+[Oo]bj/
+[Bb]uilds/
+[Bb]uild/
+[Aa]ssets/AssetStoreTools*
+
+# Ignore logs, temporary files, and local caches
+[Tt]emp/
+[Yy]arn.lock
+[Pp]ackages/manifest.json.meta
+
+# Ignore Lightmap files
+Lightmap-*/
+
+# Ignore Play mode test results
+Assets/Scenes/Tests/
+
+# Ignore script assemblies and caches
+*.csproj
+*.pidb
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.uvproj*
+*.VC.db
+*.log
+
+# Ignore Rider & VSCode metadata
+.idea/
+*.iml
+
+# Ignore Unity-generated meta files
+*.meta
+
+# Ignore other build artifacts
+*.apk
+*.unitypackage
+*.aab
+
+# =============== #
+# Optional #
+# =============== #
+
+# Uncomment if using JetBrains Rider
+# .idea/
+
+# Uncomment if using Visual Studio
+.vs/
+*.sln
+*.csproj
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Uncomment if using MacOS
+# .DS_Store
+
+# Uncomment if using Windows
+Thumbs.db
+Desktop.ini
+
+# Uncomment if using Linux
+# *~
